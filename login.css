@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+/* outer box */
+
+.outer-box {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left, #d5dfff, #d5fff4);
+}
+
+/* inner box */
+.inner-box {
+    width:300px;
+    border:1px solid red;
+    margin: 0 auto;
+    position:relative;
+    top:20%; 
+    padding: 30px 40px;
+    background-color: white;
+    border-radius:5px;
+}
+
+/* header section */
+
+.singup-text h1{
+    font-size:2.6rem;
+}
+
+.singup-text p{
+    font-size:0.7rem;
+    color:#244848;
+    margin-bottom:20px;
+    margin-top:5px;
+}
+
+/* main section */
+
+.form p {    
+    margin-top:15px;
+}
+
+.form lable{
+    font-weight:5.600;
+    font-size:1.2rem;
+    display:block;
+   
+}
+
+.form input{
+     width:100%;
+    border:1px solid #675d7c;
+    border-radius:3px;
+    height:30px;
+    padding:10px;
+    font-size:.9rem;
+    margin-up:5px;
+}
+
+.form .submit {
+    padding:0px;
+    padding-bottom:20px;
+    padding-top:5px;
+    background-color:#2196F3;
+    color:white;
+    border:none;
+}
+
+.form .submit:hover {
+    background-color:#0047A1;
+}
+
+/* footer */
+
+footer p {
+    font-size:0.8rem;
+    text-align:center;
+    margin-top:8px;
+}
+
+@media only screen and (min-width: 768px) 
+{
+    
+    .inner-box, .singup-text h1, .singup-text p, .form lable, .form lable, .form input, .form .submit, .form .submit:hover, footer p{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+    }
+    
+    /* outer box */
+
+.outer-box {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left, #d5dfff, #d5fff4);
+}
+
+/* inner box */
+.inner-box {
+    width:500px;
+    border:1px solid red;
+    margin: 0 auto;
+    position:relative;
+    top:20%; 
+    padding: 30px 40px;
+    background-color: white;
+    border-radius:5px;
+}
+
+/* header section */
+
+.singup-text h1{
+    font-size:2.6rem;
+}
+
+.singup-text p{
+    font-size:0.7rem;
+    color:#244848;
+    margin-bottom:60px;
+    margin-top:10px;
+}
+
+/* main section */
+
+.form p {    
+    margin-top:30px;
+}
+
+.form lable{
+    font-weight:5.600;
+    font-size:1.2rem;
+    display:block;
+   
+}
+
+.form input{
+    width:100%;
+    border:1px solid #675d7c;
+    border-radius:3px;
+    height:30px;
+    padding:20px;
+    font-size:.9rem;
+    margin-top:10px;
+}
+
+
+.form .submit {
+    padding:0px;
+    padding-bottom:20px;
+    padding-top:10.6px;
+    background-color:#2196F3;
+    color:white;
+    border:none;
+    height:40px;
+}
+
+
+.form .submit:hover {
+    background-color:#0047A1;
+}
+
+/* footer */
+
+footer p {
+    font-size:0.8rem;
+    text-align:center;
+    margin-top:8px;
+    margin-bottom:40px;
+}
+
+    
+    
+}
