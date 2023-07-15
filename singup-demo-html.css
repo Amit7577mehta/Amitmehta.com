@@ -135,6 +135,7 @@ nav{
     font-weight:500;
     position:sticky;
     top:.3rem;
+    overflow: visible;
 }
 .display-icons p{
     margin-bottom:.3rem;
