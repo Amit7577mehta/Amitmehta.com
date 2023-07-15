@@ -124,7 +124,6 @@ nav{
     width:60vw;
     border-radius:0 30px 30px 0;
     background-color: white ;
-    overflow: scroll;
     
 }
 
@@ -154,6 +153,7 @@ nav{
     border:2px solid green;
     border-radius:10px 0 0 10px;
     padding:.1rem;
+    
 }
 .display-icons a:nth-child(2){
     border:2px solid green;
@@ -167,11 +167,12 @@ nav{
 }
 .display-icon-left a:nth-child(2){
     background-color:#55ffc1;
-    
+}
 .display-icon-right a:nth-child(1){
     border:2px solid green;
     border-radius:0 10px 10px 0;
     padding:.1rem;
+    
 }
 
 /* display-box-content */
@@ -208,19 +209,26 @@ footer{
     background-color:#31041c ;
 }
 
-.main-content-al a{
+
+/* main content */
+
+.main-content img{
+    width:100%;
+    
+}
+
+.main-content a{
     padding:12px 24px;
     border:1px solid blue;
     border-radius:6px;
     margin-left:10px;
     background: #6a78ff;
     color:white;
-  
 }
 
-.main-content-al img{
-    width:100%;
-}
+ .main-content h1{
+     margin-left:20px;     
+ }
 
 
 
