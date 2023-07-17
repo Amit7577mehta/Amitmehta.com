@@ -194,7 +194,7 @@ nav{
    
 }
 .demo-project-list a:nth-child(1){
-      text-decoration:underline
+      text-decoration:underline;
 }
 
 
