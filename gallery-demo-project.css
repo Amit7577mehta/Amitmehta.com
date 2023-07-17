@@ -193,6 +193,10 @@ nav{
     margin-bottom:.3rem;
 }
 
+.demo-project-list a{ 
+     text-decoration:underline; 
+ } 
+  
 
 
 /* footer */
