@@ -166,9 +166,7 @@
      border-radius:0 0 0 0; 
      padding:.1rem; 
  } 
- .display-icon-left a:nth-child(1){ 
-     background-color:#55ffc1; 
- } 
+ 
  .display-icon-right a:nth-child(1){ 
      border:2px solid green; 
      border-radius:0 10px 10px 0; 
